@@ -2,7 +2,7 @@
 
 # Change this variable if you need to use other port than 8080
 # The path custom-images/ allows the communication with the
-EXTERNAL_PORT=8082
+EXTERNAL_PORT=8080
 docker run -it -p ${EXTERNAL_PORT}:8080 \
-	-v `pwd`/custom-images/:/quick-deep-dream/custom-images/ \
-	quick-deep-dream
+    -v `pwd`/custom-images/:/quick-deep-dream/custom-images/ \
+    quick-deep-dream
