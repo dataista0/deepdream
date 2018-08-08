@@ -5,4 +5,4 @@
 EXTERNAL_PORT=8080
 docker run -it -p ${EXTERNAL_PORT}:8080 \
     -v `pwd`/custom-images/:/quick-deep-dream/custom-images/ \
-    quick-deep-dream
+    dataista/quick-deep-dream
